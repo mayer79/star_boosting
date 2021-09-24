@@ -287,9 +287,9 @@ imp <- light_importance(fls, v = x_vars)
 plot(imp, fill = "#03336B", facet_scales = "free_x")
 
 # Interaction strength (takes long)
-inter <- light_interaction(fls, v = most_important(imp, 4),
-                           pairwise = TRUE)
-plot(inter, fill = "#03336B")
+# inter <- light_interaction(fls, v = most_important(imp, 4),
+#                            pairwise = TRUE)
+# plot(inter, fill = "#03336B")
 
 # ICE curves
 light_ice(fls, v = "log_living", n_max = 200, seed = 245) %>%
