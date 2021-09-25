@@ -26,4 +26,9 @@ Cloning the repo will provide runnable R code, given you have R and Python insta
 - Python version (for deep neural net): 3.6+
 - R packages: tidyverse, xgboost, mboost, keras, flashlight
 
-In case you don't have Python installed, simply comment out the code in 02_models.r related to the deep neural net.
+In case you don't have Python installed, try
+```
+library(keras)
+install_keras()
+```
+The results of the deep neural net might slightly differ due to tricky seeding of TensorFlow's random generator.
