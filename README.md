@@ -1,11 +1,11 @@
 # Structured Additive Regression and Tree Boosting
 
-This repository contains the complete R code of Case Study 1 of the following preprint:
+This repository contains the complete R code of Case Study 1 of the following open-access publication:
 
-"Structured Additive Regression and Tree Boosting" by Mayer, Bourassa, Hoesli, and Scognamiglio (2021), 
-preprint, http://dx.doi.org/10.2139/ssrn.3924412.
+Mayer, M.; Bourassa, S.C.; Hoesli, M.; Scognamiglio, D. Machine Learning Applications to Land and Structure Valuation. J. Risk Financial Manag. 2022, 15, 193. https://doi.org/10.3390/jrfm15050193
 
-In the case study, we use a fantastic dataset with information on 13,000 houses sold in Miami in 2016 to show that fitting structured additive regression models via tree boosting leads to models with excellent interpretability/accuracy trade-off. Structured additive regression (STAR) is a generalization of the generalized additive model.
+In the case study, we use a fantastic dataset with information on 13,000 houses sold in Miami in 2016 to show that fitting (generalized) structured additive regression models via tree boosting leads to models with excellent interpretability/accuracy trade-off, see above publication for more background on the topic.
+
 The dataset was kindly provided by our coauthor Prof. Steven Bourassa and made publicly available for research purposes on https://www.openml.org/d/43093 .
 
 ## Content 
@@ -31,4 +31,9 @@ In case you don't have Python installed, run the following code in R:
 library(keras)
 install_keras()
 ```
+
 Note: The results of the deep neural net might slightly differ due to seeding of TensorFlow's random generator.
+
+## Errata of above publication
+
+- In subsection "2.1. STAR Models and Deep Learning", line 4, there is a superfluous "which is": The optional inverse link acts on the model output, not on the response Y.
