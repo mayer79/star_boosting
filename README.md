@@ -1,10 +1,10 @@
-# Structured Additive Regression and Tree Boosting
+# Machine Learning Applications to Land and Structure Valuation
 
 This repository contains the complete R code of Case Study 1 of the following open-access publication:
 
 Mayer, M.; Bourassa, S.C.; Hoesli, M.; Scognamiglio, D. Machine Learning Applications to Land and Structure Valuation. J. Risk Financial Manag. 2022, 15, 193. https://doi.org/10.3390/jrfm15050193
 
-In the case study, we use a fantastic dataset with information on 13,000 houses sold in Miami in 2016 to show that fitting (generalized) structured additive regression models via tree boosting leads to models with excellent interpretability/accuracy trade-off, see above publication for more background on the topic.
+In the case study, we use a fantastic dataset on 13,000 houses sold in Miami to show that fitting (generalized) structured additive regression models via tree boosting leads to models with excellent interpretability/accuracy trade-off, see above publication for much more information.
 
 The dataset was kindly provided by our coauthor Prof. Steven Bourassa and made publicly available for research purposes on https://www.openml.org/d/43093 .
 
